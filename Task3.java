@@ -1,4 +1,4 @@
-package Lesson1;
+package lesson1;
 
 import java.util.Scanner;
 
@@ -8,20 +8,20 @@ public class Task3 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Введите 20 чисел");
-        for (int x=0; x<numbers.length; x++) {
+        for (int x = 0; x < numbers.length; x++) {
             numbers[x] = sc.nextInt();
         }
 
-        System.out.println("Please find even numbers");
+        System.out.println("Please find even numbers below");
         for (int x = 0; x < numbers.length; x++) {
-            if (numbers[x]%2==0) {
+            if (numbers[x] % 2 == 0) {
                 System.out.println(numbers[x]);
             }
         }
 
         System.out.println("Please find odd numbers below");
         for (int x = 0; x < numbers.length; x++) {
-            if (numbers[x]%2!=0) {
+            if (numbers[x] % 2 != 0) {
                 System.out.println(numbers[x]);
             }
         }
